@@ -40,19 +40,19 @@ function playRound(playerSelection) {
         }
         else if (computerSelection === "paper") {
             console.log("Computer won");
-            roundWinner.textContent = "Computer won this round.";  
+            roundWinner.textContent = "Computer won this round. Paper beats rock.";  
             computerScore++;
         }
         else if (computerSelection === "scissors") {
             console.log("Player won");
-            roundWinner.textContent = "Player won this round.";
+            roundWinner.textContent = "Player won this round. Rock beats scissors.";
             playerScore++;
         }
     }
     else if (playerSelection === "paper") {
         if (computerSelection === "rock") {
             console.log("Player won");
-            roundWinner.textContent = "Player won this round.";
+            roundWinner.textContent = "Player won this round. Paper beats rock.";
             playerScore++;
         }
         else if (computerSelection === "paper") {
@@ -61,20 +61,20 @@ function playRound(playerSelection) {
         }
         else if (computerSelection === "scissors") {
             console.log("Computer won");
-            roundWinner.textContent = "Computer won this round.";  
+            roundWinner.textContent = "Computer won this round. Scissors beats paper.";  
             computerScore++;
         }
     }
     else if (playerSelection === "scissors") {
         if (computerSelection === "rock") {
             console.log("Computer won");
-            roundWinner.textContent = "Computer won this round.";  
+            roundWinner.textContent = "Computer won this round. Rock beats scissors";  
             computerScore++;
         }
         else if (computerSelection === "paper") {
             console.log("player won");
             playerScore++;
-            roundWinner.textContent = "Player won this round.";
+            roundWinner.textContent = "Player won this round. Scissors beats paper";
         }
         else if (computerSelection === "scissors") {
             console.log("Draw");
