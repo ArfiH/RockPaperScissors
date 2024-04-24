@@ -1,0 +1,33 @@
+html, body {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    display: block;
+    width: 20vw;
+}
+
+.comp-choice {
+    display: none;
+}
+
+.comp-image {
+    border: 10px double black;
+}
+
+button {
+    border: none;
+    padding: 1vh 2vw;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.scores {
+    margin-top: 5vh;
+}

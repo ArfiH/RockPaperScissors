@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="heading">
+        <header><h1>Rock Paper Scissor</h1></header></div>
+    <div class="container">
+        <div class="round"><h2>Choose</h2></div>
+        <div class="cards">
+            <div class="image">
+                <img src="rock.svg" alt="rock">
+                <button id="rock-btn">Rock</button>
+            </div>
+            <div class="image"">
+                <img src="paper.svg" alt="paper">
+                <button id="paper-btn">Paper</button>
+            </div>
+            <div class="image">
+                <img src="scissors.svg" alt="scissors">
+                <button id="scissors-btn">Scissors</button>
+            </div>
+            <div class="comp-choice">
+                <div class="comp-text">Computer's choice</div>
+                <img class="comp-image" src="scissors.svg" alt="scissors">                
+            </div>
+        </div>
+        <div class="scores">
+            <div class="player">
+                <span>Player Score:</span>
+                <span id="player-score"></span>
+            </div>
+            <div class="computer">
+                <span>Computer Score:</span>
+                <span id="computer-score"></span>
+            </div>
+        </div>
+        <div class="winner"><h3></h3></div>
+    </div>
+</body>
+</html>
